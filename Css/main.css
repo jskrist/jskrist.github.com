@@ -1,0 +1,253 @@
+body {
+	background-color:#26354A;    /*#64748B;*/
+	margin:auto;
+	padding: 15px;
+	vertical-align:top;
+	text-align:center;
+/*	width:100%; */ 
+}
+
+/* Global Classes */
+.AlbumTitle  {
+	font-size: 18pt;
+	font-family: "Comic Sans MS";
+	font-weight: normal;
+}
+.PhotoTitle  {
+	font-family: "Comic Sans MS";
+	font-size: 12pt
+}
+.NavigationButton  {
+	font-family : "Comic Sans MS";
+	font-size: 12pt;
+	font-weight: bold;
+}
+.PhotoLongDescription  {
+	font-family: "Comic Sans MS";
+	font-size: 12pt;
+}
+.ThumbnailLabels {
+	border-width: 1px;
+  border-style: solid;
+	border-color: white;
+	font-size: 10pt;
+	font-family: "Comic Sans MS"
+}
+.CustomLink  {
+	font-family: "Comic Sans MS";
+	font-size: 12pt;
+	font-weight: bold
+}
+.PulldownListbox  {
+	font-size: 12pt;
+	font-family: "Comic Sans MS";
+	font-weight: bold;
+}
+.PageNumber  {
+	text-align: center;
+	font-size: 8pt;
+	font-family: "Comic Sans MS";
+	font-weight: normal;
+}
+
+/* Div tag IDs*/
+#header {
+  height: 70px;
+	width: 100%;
+}
+#leftcol {
+  float: left;
+  width: 20%;
+  height: 500px;
+}
+#rightcol {
+  float: right;
+  width: 20%;
+  height: 500px;
+}
+#content {
+  float: left;
+  width: 59%;
+  height: 500px;
+}
+#footer {
+  clear: both;
+  width: 100%;
+}
+
+/* div tag stuff */
+Div{
+	text-align:center;
+	margin:auto;
+}
+
+div.bodyText {
+	font: 14px "Comic Sans MS", Chicago, Arial;
+	color:#D3DCE6;
+	text-indent:20px;
+	text-align:left;
+	width:750px;
+	padding:20px;
+}
+
+div.buttons {
+	vertical-align: middle;
+	width:800px;
+	padding:5px;
+}
+
+div.greeting {
+	font: 18px "Comic Sans MS", Chicago, Arial;
+	color:#D3DCE6;
+	vertical-align:middle;
+	width:750px;
+	padding:none;
+}
+
+div.header {
+	vertical-align: middle;
+	height: 70px;
+	width:800px;
+}
+
+div.imageArea {
+	vertical-align: middle;
+	width:800px;
+	padding:20px;
+}
+
+div.lightBlue {
+	background-color:#D3DCE6;
+	height: 1px;
+	width:800px;
+}
+
+div.links {
+	background-color:#FFCC00; 
+	height: 24px;
+	width:800px;
+	text-align:center;
+}
+
+/*-----Modified from RJ Linton's @-----	/**/
+div.mcontent  {							/**/
+	padding:0px;						/**/
+/*	margin:0px;							/**/
+/*	position:static;					/**/
+/*	width:100px;						/**/
+	float:center;						/**/
+}										/**/
+/*-www.ilstu.edu/~rjlinto/CSS/main.css-	/**/
+
+div.orange {
+	background-color: #FF6600;
+	height: 4px;
+	width:800px;
+}
+
+div.pageUpdate {
+	font:12px CountryBlueprint, "Lucida Calligraphy";
+	vertical-align:middle;
+	width: 800px;
+}
+
+div.searchBar {
+	vertical-align:middle;
+	width:800px;
+	padding:5px;
+}
+
+/* span tag stuff*/
+
+span.subTitle {
+	font: 11px Arial, Helvetica, sans-serif;
+	color: #D3DCE6;
+	padding-left:1em;
+	border-left:1px solid #D3DCE6;
+}
+
+/* img tag stuff*/
+
+img {
+	border:0px;
+}
+
+/* a tag stuff*/
+
+a {
+	color: #FF6600;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+a.left {
+	text-align: left;
+}
+
+a.nav {
+	font:10px Arial, Helvetica, sans-serif;
+	color: #26354A;
+	letter-spacing:.1em;
+	line-height:12px;
+	text-decoration: none;
+	display:inline;
+	border-right:1px solid #FF6600;
+	padding: 1px 10px;
+}
+
+a.nav:hover {
+	color:#ffffff;
+	background: #FF6600;
+}
+
+a.navLast {
+	font:10px Arial, Helvetica, sans-serif;
+	color: #26354A;
+	letter-spacing:.1em;
+	line-height:12px;
+	text-decoration: none;
+	display:inline;
+	padding: 1px 10px;
+}
+
+a.navLast:hover {
+	color:#ffffff;
+	background: #FF6600;
+}
+
+a.title {
+	font: 18px "Comic Sans MS", Chicago, Arial;
+	text-align: left;
+	color: #FF6600;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+a.title:hover {
+	text-decoration:underline;
+}
+
+/* p tag stuff*/
+
+p.headerText {
+	font:24px "Times New Roman", Times, serif;
+	color: #FFBA00;
+	letter-spacing:.3em;
+}
+
+p.titleText {
+	text-align: center;
+	vertical-align:middle;
+	font:20px "Times New Roman", Times, serif;
+	color: #FFBA00;
+	letter-spacing:.3em;
+}
+
+/* li tag stuff*/
+li {
+	font:12px "Times New Roman", Times, serif;
+	color: #FFBA00;
+	text-align: left;
+	text-indent:20px;
+	letter-spacing:.3em;
+}
